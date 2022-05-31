@@ -12,7 +12,7 @@ public class Hooks extends BaseClass{
 	@Before
 	public void initializer() {
 		initializeChrome();
-		windowMaximize();
+		System.out.println("Hiiii");
 		
 	}
 	
