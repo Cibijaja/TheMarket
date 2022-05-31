@@ -1,4 +1,6 @@
-@notNOw
+
+@notNow
+>>>>>>> branchA
 Feature: Validating the login page
 
 Scenario : Login using valid credentials
