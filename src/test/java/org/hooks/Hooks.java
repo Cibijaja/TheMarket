@@ -1,8 +1,8 @@
 package org.hooks;
 
 import org.base.BaseClass;
-import org.pojo.LoginPojo;
-import org.testng.annotations.BeforeMethod;
+
+
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
