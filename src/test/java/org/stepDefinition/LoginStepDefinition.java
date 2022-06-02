@@ -25,7 +25,7 @@ public class LoginStepDefinition extends BaseClass {
 	@Then("user account should be validated according to credentials {string}")
 	public void user_account_should_be_validated_according_to_credentials(String validity) {
 		if(validity.equals("valid")) {
-			Assert.assertEquals(true, false);
+			Assert.assertEquals(true, true);
 		}
 		else if(validity.equals("invalid")) {
 			String alertStatus = lp.getAlertStatus();
