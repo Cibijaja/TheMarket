@@ -13,19 +13,19 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M6</version>
+					<version>3.0.0-M5</version>
 					<configuration>
 
 						<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
 						<testSourceDirectory>C:\Users\CIBI\eclipse-workspace\TheMarket\src\test\java</testSourceDirectory>
 						<includes>
-							<include>**/*RunnerClass.java</include>
+							<include>RunnerClass.java</include>
 						</includes>
-						<paralle>methods</paralle>
-						<threadCount>2</threadCount>
+
 					</configuration>
 				</plugin>
 
+				
 			</plugins>
 		</pluginManagement>
 	</build>

@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 				glue= {"org.stepDefinition","org.hooks"},dryRun=false,monochrome=true,
 				plugin= {"pretty",
 						"json:target/cucumber-report/cucumber.json",
-						"rerun:C:\\Users\\CIBI\\eclipse-workspace\\TheMarket\\src\\test\\resources\\Failed.txt"
+						
 						
 })
 
