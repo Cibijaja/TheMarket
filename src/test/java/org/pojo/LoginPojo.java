@@ -44,6 +44,9 @@ public class LoginPojo extends BaseClass{
 		return null;
 	}
 	
+	public void what(){
+	}
+	
 	
 
 }
