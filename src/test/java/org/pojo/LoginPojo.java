@@ -3,6 +3,7 @@ package org.pojo;
 import java.util.concurrent.TimeUnit;
 
 import org.base.BaseClass;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -27,6 +28,9 @@ public class LoginPojo extends BaseClass{
 		fillTextBox(emailBox, emailId);
 		fillTextBox(passBox, password);
 		clickElement(submitBtn);
+		
+		TakesScreenshot ts = (TakesScreenshot)new PageFactory();
+		
 	}
 	
 	public void clickLoginBtn() {
